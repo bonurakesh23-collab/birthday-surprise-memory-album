@@ -6,7 +6,7 @@ import { Play, Pause, Volume2, VolumeX, X } from 'lucide-react'
 import { SectionHeading, SectionIntro, SectionLabel } from './section-heading'
 
 const VIDEO_SRC = '/birthday-video.mp4'
-const VIDEO_POSTER = '/gallery/photo-3.png'
+const VIDEO_POSTER = '/gallery/komali-2.jpeg'
 
 export function VideoSection() {
   const [open, setOpen] = useState(false)

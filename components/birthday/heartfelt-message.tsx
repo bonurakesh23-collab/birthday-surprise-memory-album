@@ -5,18 +5,17 @@ import { motion, useInView } from 'framer-motion'
 import { Heart } from 'lucide-react'
 import { SectionHeading, SectionLabel } from './section-heading'
 
-const MESSAGE = `Dear Best Friend,
+const MESSAGE = `Happy birthday! I hope all your birthday wishes and dreams come true,
 
-Where do I even begin? Today marks another year of your amazing existence, and I couldn't let it pass without telling you how much you mean to me.
+Count your life by smiles, no tears, Count your age by friends, not years. Happy Birthday!
 
-Distance may separate us physically, but you're always close to my heart. Through every video call, every late-night text, every shared meme —
+The God given for me a greatest gift for You 🥰 ......
 
-Here's to another year of adventures (even if they're virtual for now), inside jokes, and a friendship that knows no bounds.
+I am so lucky thankful to God & makes it much more joyful & colorful & happiness ☺️ ......
 
-Happy Birthday, my friend. chalo, jeet raho beti...
+Wishing you all the most precious thing in life ......
 
-Until we meet again,
-Your Friend`
+may you reach your goal successfully 💐 .....`
 
 export function HeartfeltMessage() {
   const containerRef = useRef<HTMLDivElement>(null)

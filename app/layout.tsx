@@ -16,7 +16,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Happy Birthday Abhi',
+  title: 'Happy Birthday Komali',
   description: 'A special day for a special person — a birthday memory album made with love.',
   generator: 'v0.app',
 }

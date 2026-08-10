@@ -12,12 +12,11 @@ type Photo = {
 }
 
 const photos: Photo[] = [
-  { src: '/gallery/photo-1.png', caption: 'Keep Smiling', height: 'h-72', rotate: -2 },
-  { src: '/gallery/photo-2.png', caption: "You're Brave", height: 'h-96', rotate: 2 },
-  { src: '/gallery/photo-3.png', caption: 'Too Kind', height: 'h-64', rotate: -1.5 },
-  { src: '/gallery/photo-4.png', caption: 'Haha', height: 'h-96', rotate: 1.5 },
-  { src: '/gallery/photo-5.png', caption: 'View You Love', height: 'h-72', rotate: -2 },
-  { src: '/gallery/photo-6.png', caption: 'Keep Going', height: 'h-80', rotate: 2 },
+  { src: '/gallery/komali-4.jpeg', caption: 'Keep Smiling', height: 'h-96', rotate: -2 },
+  { src: '/gallery/komali-1.jpeg', caption: "You're Brave", height: 'h-72', rotate: 2 },
+  { src: '/gallery/komali-3.jpeg', caption: 'Too Kind', height: 'h-96', rotate: -1.5 },
+  { src: '/gallery/komali-5.jpeg', caption: 'Haha', height: 'h-80', rotate: 1.5 },
+  { src: '/gallery/komali-2.jpeg', caption: 'Keep Going', height: 'h-96', rotate: -2 },
 ]
 
 export function PhotoGallery() {
@@ -26,7 +25,7 @@ export function PhotoGallery() {
       <div className="mx-auto max-w-5xl">
         <div className="flex flex-col items-center gap-4 text-center">
           <SectionLabel>Celebrating You</SectionLabel>
-          <SectionHeading lead="Aap Ka" highlight="Photos" />
+          <SectionHeading lead="Your" highlight="Photos" />
           <SectionIntro>Every photo tells a story of how amazing you are</SectionIntro>
         </div>
 

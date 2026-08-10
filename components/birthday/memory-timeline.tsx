@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { Heart, Video, Calendar, MessageCircle, MapPin, type LucideIcon } from 'lucide-react'
+import { Heart, Video, Calendar, MessageCircle, type LucideIcon } from 'lucide-react'
 import { SectionHeading } from './section-heading'
 
 type Memory = {
@@ -19,35 +19,28 @@ const memories: Memory[] = [
     title: 'The Day We Met',
     description: 'Who knew a random conversation would lead to the friendship?',
     icon: Heart,
-    photo: '/gallery/photo-1.png',
+    photo: '/gallery/komali-4.jpeg',
   },
   {
     date: 'January 2026',
     title: 'First Video Call',
     description: 'Finally seeing each other face to face, even if through a screen!',
     icon: Video,
-    photo: '/gallery/photo-4.png',
+    photo: '/gallery/komali-1.jpeg',
   },
   {
     date: '2026',
     title: 'Best Memories',
     description: 'All the laughs, the late night talks, the shared dreams. Every moment counts.',
     icon: Calendar,
-    photo: '/gallery/photo-6.png',
+    photo: '/gallery/komali-5.jpeg',
   },
   {
     date: '2026',
     title: 'Philosophical Talks',
     description: 'Conversations about life, dreams, and everything in between. You always understand.',
     icon: MessageCircle,
-    photo: '/gallery/photo-5.png',
-  },
-  {
-    date: 'Soon...',
-    title: 'Meeting You IRL',
-    description: "Hope we meet in a short time yaar. Can't wait for that day!",
-    icon: MapPin,
-    photo: '/gallery/photo-3.png',
+    photo: '/gallery/komali-3.jpeg',
   },
 ]
 

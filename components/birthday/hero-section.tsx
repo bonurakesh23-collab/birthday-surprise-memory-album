@@ -55,7 +55,7 @@ export function HeroSection({
             }}
             transition={{ duration: 3.5, repeat: Number.POSITIVE_INFINITY, ease: 'easeInOut' }}
           >
-            Birthday Abhi
+            Birthday Komali
           </motion.span>
         </motion.h1>
 
