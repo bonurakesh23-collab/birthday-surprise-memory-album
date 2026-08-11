@@ -15,7 +15,7 @@ type Memory = {
 
 const memories: Memory[] = [
   {
-    date: 'The day we meet oct 2021',
+    date: ' oct 2021',
     title: 'The Day We Met'
     description: 'Who knew a random conversation would lead to the friendship?',
     icon: Heart,
