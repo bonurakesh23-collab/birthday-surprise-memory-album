@@ -15,28 +15,28 @@ type Memory = {
 
 const memories: Memory[] = [
   {
-    date: 'December 2025',
-    title: 'The Day We Met',
+    date: 'The day we meet oct 2021',
+    title: 'The Day We Met'
     description: 'Who knew a random conversation would lead to the friendship?',
     icon: Heart,
     photo: '/gallery/komali-4.jpeg',
   },
   {
-    date: 'January 2026',
-    title: 'First Video Call',
+    date: 'January 2022',
+    title: 'First Video Call ',
     description: 'Finally seeing each other face to face, even if through a screen!',
     icon: Video,
     photo: '/gallery/komali-1.jpeg',
   },
   {
-    date: '2026',
+    date: '2023',
     title: 'Best Memories',
     description: 'All the laughs, the late night talks, the shared dreams. Every moment counts.',
     icon: Calendar,
     photo: '/gallery/komali-5.jpeg',
   },
   {
-    date: '2026',
+    date: '2023',
     title: 'Philosophical Talks',
     description: 'Conversations about life, dreams, and everything in between. You always understand.',
     icon: MessageCircle,
