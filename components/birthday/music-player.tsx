@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { Play, Pause, Volume2, VolumeX, Music } from 'lucide-react'
 import { SectionHeading, SectionLabel } from './section-heading'
 
-const AUDIO_SRC = '/music.mp3'
+const AUDIO_SRC = '/Pi7_merged_audio.mp3'
 
 function formatTime(seconds: number) {
   if (!Number.isFinite(seconds)) return '0:00'
