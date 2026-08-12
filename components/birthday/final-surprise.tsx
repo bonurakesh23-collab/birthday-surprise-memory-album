@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Heart, X } from 'lucide-react'
 
 const PARTICLES = ['🌸', '🌺', '🌹', '💐', '🌷', '✨', '🎀', '💖']
-const FINAL_IMAGE = '/ffinal.png'
+const FINAL_IMAGE = 'IMG-20260809-WA0013.jpg'
 
 type Burst = {
   id: number
