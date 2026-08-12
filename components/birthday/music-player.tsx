@@ -4,10 +4,8 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import { Play, Pause, Volume2, VolumeX, Music } from 'lucide-react'
 import { SectionHeading, SectionLabel } from './section-heading'
-// @ts-ignore
-import audioFile from './Pi7_merged_audio.mp3'
 
-const AUDIO_SRC = audioFile
+const AUDIO_SRC = '/Pi7_merged_audio.mp3'
 
 function formatTime(seconds: number) {
   if (!Number.isFinite(seconds)) return '0:00'
@@ -105,6 +103,42 @@ export function MusicPlayer() {
                 style={{ width: `${progress}%` }}
               />
             </div>
+            <div className="mt-2 flex justify-between text-xs text-muted-foreground">
+              <span>{formatTime(current)}</span>
+              <span>{formatTime(duration)}</span>
+            </div>
+          </div>
+
+          {/* controls */}
+          <div className="mt-6 flex items-center justify-center gap-6">
+            <button
+              type="button"
+              onClick={toggleMute}
+              aria-label={muted ? 'Unmute' : 'Mute'}
+              className="rounded-full p-2 text-muted-foreground transition hover:text-foreground"
+            >
+              {muted ? <VolumeX className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />}
+            </button>
+            <motion.button
+              type="button"
+              onClick={togglePlay}
+              whileTap={{ scale: 0.92 }}
+              aria-label={playing ? 'Pause' : 'Play'}
+              className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-primary-foreground shadow-lg shadow-primary/25"
+            >
+              {playing ? (
+                <Pause className="h-6 w-6" fill="currentColor" />
+              ) : (
+                <Play className="ml-0.5 h-6 w-6" fill="currentColor" />
+              )}
+            </motion.button>
+            <span className="h-9 w-9" aria-hidden="true" />
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  )
+}
             <div className="mt-2 flex justify-between text-xs text-muted-foreground">
               <span>{formatTime(current)}</span>
               <span>{formatTime(duration)}</span>
